@@ -1,0 +1,21 @@
+.pacman {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
+.pacman:focus {
+    outline: none;
+}
+
+.pacman-left {
+    transform: rotateY(180deg);
+}
+
+.pacman-up {
+    transform: rotate(-90deg);
+}
+
+.pacman-down {
+    transform: rotate(90deg);
+}
